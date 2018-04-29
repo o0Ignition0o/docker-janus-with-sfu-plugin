@@ -1,0 +1,7 @@
+version: '3'
+services:
+    janus:
+        image: jeremylempereur/janus-sfu-plugin
+        ports:
+            - "8989:8989" # wss
+            - "8188:8188" # ws
