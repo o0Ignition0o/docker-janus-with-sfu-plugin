@@ -31,7 +31,7 @@ $ docker-compose up -d
 
 # Build and Run with docker : 
 ```
-$ docker build . -t janus-sfu-plugin
+$ docker build janus/ -t janus-sfu-plugin
 $ docker run janus-sfu-plugin -p 8989:8989 -p 8188:8188
 ```
 
